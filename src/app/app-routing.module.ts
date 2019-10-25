@@ -20,7 +20,7 @@ const routes: Routes = [
         path: "",
         loadChildren:
           "./layouts/admin-layout/admin-layout.module#AdminLayoutModule"
-      }
+      },
     ]
   }, {
     path: '',
@@ -37,6 +37,7 @@ const routes: Routes = [
     redirectTo: "dashboard"
   }
 ];
+
 
 @NgModule({
   imports: [

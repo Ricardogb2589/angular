@@ -13,6 +13,8 @@ import { UserComponent } from "../../pages/user/user.component";
 import { TablesComponent } from "../../pages/tables/tables.component";
 import { TypographyComponent } from "../../pages/typography/typography.component";
 import { AngularComponent } from "../../pages/angular/angular.component";
+import { Error4Component } from "../../pages/error/error4/error4.component";
+import { Error1Component } from "../../pages/error/error1.component";
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
@@ -28,6 +30,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
   declarations: [
     DashboardComponent,
     AngularComponent,
+    Error4Component,
+    Error1Component,
     UserComponent,
     TablesComponent,
     IconsComponent,

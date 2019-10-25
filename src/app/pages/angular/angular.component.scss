@@ -1,0 +1,38 @@
+p {
+    color: #fff;
+}
+.card  {
+    margin-bottom: 0;
+    &:last-child {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+	.card-header {
+		padding: 0px 15px 0!important;
+		align-items: center;
+		display: flex;
+	}
+	h1 {
+		margin: 0;
+    }
+}
+label {
+    color: #d9d9d9;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.accordion {
+    .card  {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+.card-chart {
+	overflow: hidden;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+}
+#ngb-panel-1-header {
+	padding: 0;
+}

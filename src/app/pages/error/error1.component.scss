@@ -1,0 +1,26 @@
+p {
+    color: #fff;
+}
+.card  {
+	margin-bottom: 0;
+	&:first-child {
+		margin-bottom: 30px;
+	}
+	.card-header {
+		padding: 0px 15px 0!important;
+		align-items: center;
+		display: flex;
+	}
+	h1 {
+		margin: 0;
+	}
+}
+.card-chart {
+	overflow: hidden;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+}
+#ngb-panel-1-header {
+	padding: 0;
+}
